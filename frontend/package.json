@@ -1,0 +1,21 @@
+{
+  "name": "interactive_slide_frontend",
+  "version": "0.0.0",
+  "description": "Interactive Slide - Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss dist/css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch | live-server"
+  },
+  "author": "Yana Agun Siswanto",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
