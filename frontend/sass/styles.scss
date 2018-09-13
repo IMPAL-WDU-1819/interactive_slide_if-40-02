@@ -1,2 +1,14 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
+
+.quiz-options {
+  ul>li>a {
+    margin-top: $size-3;
+    font-size: $size-3;
+  }
+}
+
+.main-title {
+  margin-top: $size-1;
+  font-size: $size-1;
+}
